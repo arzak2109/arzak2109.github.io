@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: lightgreen;
+}
+
+
+.main{
+	background: lightblue;
+	margin: auto;
+	width: 70%;
+	min-height: 600px;
+	padding-bottom: 20px;
+
+}
+.top{
+	background:#FF0092;
+	width: 98%;
+	height: 70px;
+	margin: auto;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left: calc(50% - 25px);
+}
+.content{
+	background: yellow;
+	width: 90%;
+	height: 900px;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 1px blue;
+}
+.menu{
+	border: 1px solid black;
+	padding: 7px;
+	margin-top: 10px;
+	margin-right: 20px;
+	float: right;
+}
+.el li {
+	text-decoration: none;
+	display: inline;
+	padding: 7px;
+}
